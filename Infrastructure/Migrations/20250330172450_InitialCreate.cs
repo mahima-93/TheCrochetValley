@@ -21,6 +21,7 @@ namespace Infrastructure.Migrations
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     PictureUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Collection = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     QuantityInStock = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
